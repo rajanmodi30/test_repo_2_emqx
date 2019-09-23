@@ -1,0 +1,14 @@
+{application, test,
+ [{description, "An EMQ X plugin"},
+  {vsn, "git"},
+  {modules, []},
+  {registered, []},
+  {mod, {test_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
